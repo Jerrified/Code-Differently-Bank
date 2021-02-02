@@ -1,7 +1,7 @@
 const acctBalanceLbl = document.getElementById("acctBalanceLbl");
 const deposits = [];
 const withdrawals = [];
-let totalBalance = 25;
+let totalBalance = 2000;
 const userDeposit = document.getElementById("userDeposit");
 const btnDeposit = document.getElementById("btnDeposit");
 const userWithdraw = document.getElementById("userWithdraw");
@@ -91,7 +91,7 @@ document.getElementById("acctBalanceLbl").innerHTML = totalBalanceFormatted;
 const acctBalanceLbl2 = document.getElementById("acctBalanceLbl2");
 const deposits2 = [];
 const withdrawals2 = [];
-let totalBalance2 = 25;
+let totalBalance2 = 200;
 const userDeposit2 = document.getElementById("userDeposit2");
 const btnDeposit2 = document.getElementById("btnDeposit2");
 const userWithdraw2 = document.getElementById("userWithdraw2");
